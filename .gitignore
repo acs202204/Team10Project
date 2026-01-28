@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# --- Virtual Environments ---
+venv/
+.env/
+.venv/
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Tools / Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs / Outputs ---
+*.log
+logs/
+runs/
+output/
+results/
+
+# --- YOLO / Ultralytics ---
+# YOLO often writes runs/ directories for training, detection, etc.
+runs/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Project Scripts ---
+start_env.sh
