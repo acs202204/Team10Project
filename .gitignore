@@ -44,4 +44,4 @@ runs/
 Thumbs.db
 
 # --- Project Scripts ---
-start_env.sh
+start.sh
